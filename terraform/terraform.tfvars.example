@@ -1,0 +1,5 @@
+# Example terraform.tfvars
+
+# Rename this file to terraform.tfvars and fill in the values for your environment.
+
+example = "Hello from terraform.tfvars!"
