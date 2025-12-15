@@ -21,3 +21,14 @@ variable "bucket_name" {
   type        = string
   description = "S3 bucket name"
 }
+
+variable "enable_versioning" {
+  description = "Enable versioning"
+  type        = string
+  default     = "Disabled" # "Enabled", "Suspended" or "Disabled"
+}
+
+variable "cloudfront_distribution_arn" {
+  description = "The ARN of the CloudFront distribution."
+  type        = string
+}

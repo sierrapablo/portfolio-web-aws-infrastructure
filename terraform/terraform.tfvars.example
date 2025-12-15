@@ -5,3 +5,4 @@ profile = "default"
 domain_name = "www.mydomain.com"
 
 bucket_name = "www-mydomain-com"
+enable_versioning = "Disabled" # "Enabled", "Suspended" or "Disabled"
