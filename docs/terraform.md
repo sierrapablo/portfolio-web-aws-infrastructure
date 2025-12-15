@@ -51,6 +51,15 @@ The infrastructure is composed of the following modules instantiated in `main.tf
   - `outputs.tf`: Module outputs.
   - `variables.tf`: Module variables.
 
+### CloudFront
+
+- **Source**: `./modules/cloudfront`
+- **Purpose**: CloudFront module for managing AWS CloudFront distribution.
+- **Configuration**:
+  - `main.tf`: Main module configuration.
+  - `outputs.tf`: Module outputs.
+  - `variables.tf`: Module variables.
+
 ## Prerequisites
 
 [Terraform](https://www.terraform.io/downloads.html) installed (version defined in `versions.tf`).
