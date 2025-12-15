@@ -4,7 +4,7 @@ Template for IaC with Terraform
 
 [![Latest Release](https://img.shields.io/github/v/release/sierrapablo/portfolio-web-aws-infrastructure?logo=github&style=flat-square)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/releases)
 [![Stars](https://img.shields.io/github/stars/sierrapablo/portfolio-web-aws-infrastructure?logo=github&style=flat-square)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/stargazers)
-[![Terraform Validate](https://github.com/sierrapabloportfolio-web-aws-infrastructure/actions/workflows/validate.yaml/badge.svg)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/actions/workflows/validate.yaml)
+[![Terraform Validate](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/actions/workflows/validate.yaml/badge.svg)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/actions/workflows/validate.yaml)
 [![Format Code](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/actions/workflows/format.yaml/badge.svg)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/actions/workflows/format.yaml)
 
 > **🚧 Active Development**: This project is currently under active construction. Features, modules, and architecture are evolving and are subject to change.
