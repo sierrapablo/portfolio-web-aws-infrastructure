@@ -1,4 +1,5 @@
 # IaC Repository for www.sierrapablo.dev web
+
 Template for IaC with Terraform
 
 [![Latest Release](https://img.shields.io/github/v/release/sierrapablo/portfolio-web-aws-infrastructure?logo=github&style=flat-square)](https://github.com/sierrapablo/portfolio-web-aws-infrastructure/releases)
@@ -10,18 +11,18 @@ Template for IaC with Terraform
 
 ## Overview
 
-This repository contains the template for Infrastructure as Code (IaC) with Terraform.
+This repository contains the Infrastructure as Code (IaC) for the www.sierrapablo.dev web.
 
 ## Repository Structure
 
 The project is organized into several key directories, each with its own specific documentation:
 
-| Directory                | Description                                                                                 | Documentation                                       |
-| ------------------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Directory                | Description                                                                                 | Documentation                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | **`terraform/`**         | The core infrastructure definition, including the `main` configuration and provider setups. | [View Documentation](./docs/terraform.md)         |
-| **`terraform/modules/`** | Reusable, self-contained Terraform modules.                                                   | [View Documentation](./docs/terraform-modules.md) |
+| **`terraform/modules/`** | Reusable, self-contained Terraform modules.                                                 | [View Documentation](./docs/terraform-modules.md) |
 | **`ci/`**                | Jenkins pipelines managing the release lifecycle and versioning (Gitflow).                  | [View Documentation](./docs/ci.md)                |
-| **`.github/workflows/`** | GitHub Actions workflows for continuous integration (Format, Validate) and GitHub Releases. | [View Documentation](./docs/github-workflows.md) |
+| **`.github/workflows/`** | GitHub Actions workflows for continuous integration (Format, Validate) and GitHub Releases. | [View Documentation](./docs/github-workflows.md)  |
 
 ### Features
 

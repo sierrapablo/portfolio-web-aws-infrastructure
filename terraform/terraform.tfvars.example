@@ -1,5 +1,5 @@
-# Example terraform.tfvars
-
 # Rename this file to terraform.tfvars and fill in the values for your environment.
+region = "us-east-1"
+profile = "default"
 
-example = "Hello from terraform.tfvars!"
+domain_name = "www.mydomain.com"

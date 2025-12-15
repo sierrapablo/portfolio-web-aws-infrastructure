@@ -1,16 +1,8 @@
-# Example outputs
-
-# Output from module variables
-output "hello_world_module" {
-  value = module.hello_world_module.message
+# ACM OUTPUTS
+output "acm_certificate_arn" {
+  value = module.acm.certificate_arn
 }
 
-# Output from terraform variables
-output "hello_world_variables" {
-  value = module.hello_world_variables.message
-}
-
-# Output from main.tf variables
-output "hello_world_main" {
-  value = module.hello_world_main.message
+output "acm_validation_records" {
+  value = module.acm.validation_records
 }

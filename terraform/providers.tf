@@ -1,11 +1,4 @@
-# Provider configuration
-# Use versions.tf for version constraints
-
-provider "null" {
-  # Configuration options if needed
+provider "aws" {
+  region  = var.region
+  profile = var.profile
 }
-
-# Example:
-# provider "aws" {
-#   region = "us-east-1"
-# }
