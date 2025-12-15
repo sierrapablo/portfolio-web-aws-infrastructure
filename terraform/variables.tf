@@ -24,6 +24,6 @@ variable "bucket_name" {
 
 variable "enable_versioning" {
   description = "Enable versioning"
-  type        = string
-  default     = "Disabled" # "Enabled", "Suspended" or "Disabled"
+  type        = bool
+  default     = false
 }
