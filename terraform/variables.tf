@@ -1,8 +1,17 @@
-# Example variables
-# Use this file to define variables for your Terraform configuration.
-
-variable "example" {
+# AWS PROVIDER VARIABLES
+variable "region" {
   type        = string
-  default     = "Hello from Terraform variables.tf!"
-  description = "Example variable description"
+  description = "AWS region for the S3 bucket"
+}
+
+variable "profile" {
+  type        = string
+  description = "AWS profile for the S3 bucket"
+  default     = "default"
+}
+
+# ACM VARIABLES
+variable "domain_name" {
+  type        = string
+  description = "Domain name for the ACM certificate"
 }
