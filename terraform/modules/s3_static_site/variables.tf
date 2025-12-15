@@ -5,11 +5,18 @@ variable "bucket_name" {
 
 variable "enable_versioning" {
   description = "Enable versioning"
+  type        = bool
+  default     = false
+}
+
+variable "cloudfront_oai_iam_arn" {
+  description = "IAM ARN of CloudFront Origin Access Identity"
   type        = string
-  default     = "Disabled" # "Enabled", "Suspended" or "Disabled"
+  default     = ""
 }
 
 variable "cloudfront_distribution_arn" {
-  description = "The ARN of the CloudFront distribution."
+  description = "ARN of CloudFront distribution"
   type        = string
+  default     = ""
 }
