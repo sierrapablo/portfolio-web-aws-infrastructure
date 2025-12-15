@@ -1,12 +1,12 @@
 # AWS PROVIDER VARIABLES
 variable "region" {
   type        = string
-  description = "AWS region for the S3 bucket"
+  description = "AWS region for the provider configuration"
 }
 
 variable "profile" {
   type        = string
-  description = "AWS profile for the S3 bucket"
+  description = "AWS profile for the provider configuration"
   default     = "default"
 }
 
